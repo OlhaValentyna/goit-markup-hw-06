@@ -740,10 +740,7 @@ img {
     transform: translate(0, 0);
 }
 
-.form-footer {
-    display: flex;
-    gap: 24px;
-}
+
 
 .form-footer-titel {
     font-weight: 500;
@@ -780,11 +777,11 @@ img {
     outline: none;
 }
 
+
 .form-footer-btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
     flex-direction: row;
     gap: 16px;
     padding: 8px 24px;
@@ -804,9 +801,13 @@ img {
 }
 
 .icon-subscribe {
-    margin-left: 16px;
     fill: #FFFFFF;
 
+}
+
+.form-footer {
+    display: flex;
+    gap: 24px;
 }
 
 .modal-titel {
